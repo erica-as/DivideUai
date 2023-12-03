@@ -1,12 +1,22 @@
-### 2.1. Modelo de dados
+### 1.1. Modelo de dados
 
-![Diagrama de entidades](images/diagramas/diagrama_entidade_aluguel_veiculos.png "Diagrama de entidades")
+![Diagrama de entidades](images/diagrama_entidade_divide_uai.png "Diagrama de entidades")
 
 <h4>Entidades</h4>
 
-<h4>Relacionamentos</h4>
+- **Users**: Tabela responsável por armazenas os dados dos usuarios cafastrados na DivideUai.
+- **Grupos**: Tabela responsavel por armazenas os grupos (Individual e Compartilhado).
+- **Eventos**: Tabela resposnavel por armazenar eventos criados dentro de cada grupo.
+- **Lancamentos**: Tabela responsável por armazenar os lançamentos feitos em cada evento.
 
-### 4.4. Tecnologias
+<h4>Relacionamentos</h4>
+ 
+- **Users e Groups**: Um usuário pode estar associado a zero ou mais grupos. 
+- **Users e Groups**: Um grupo pode ter zero ou mais eventos; um evento pertence a exatamente um grupo.
+- **Users e Events**: Um usuário pode criar zero ou mais eventos; um evento é criado por exatamente um usuário.
+- **Events e Launches**: Um evento pode ter, no máximo, um lançamento associado e cada lançamento está associado a exatamente um evento.
+
+### 1.2. Tecnologias
 
 <h4>Camada de Apresentação</h4>
 

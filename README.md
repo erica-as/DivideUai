@@ -1,6 +1,6 @@
 # DivideUai
 
-DivideUai é uma aplicação web para divisão transparente e justa de despesas entre amigos e familiares durante eventos.
+Uma das principais funcionalidades da DivideUai é a capacidade de criar grupos e eventos personalizados. Os usuários podem adicionar participantes, e lançar despesas ao longo do evento. Ao finalizar o evento, o software automaticamente realiza os cálculos e apresenta o valor devido por cada participante, garantindo uma divisão transparente e justa.
 
 ## Principais Funcionalidades
 
